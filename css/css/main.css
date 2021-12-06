@@ -145,6 +145,14 @@ background: url(../../img/T_B2_1.png)no-repeat center / cover;margin-top:500px;
 cursor: pointer;}
 
 
+.sns_01 > a{display: block; width: 59px; height: 59px;
+  background-color: aliceblue;float: left;margin-left: 5px;
+position: relative; top:20px;right: -60px;}
+.sns_01 > a.kaka{background: url(../../img/kaka1.png)no-repeat center;}
+.sns_01 > a.fb{background: url(../../img/fb.png)no-repeat center;}
+.sns_01 > a.tw{background: url(../../img/tw.png)no-repeat center;}
+.sns_01 > a.instar{background: url(../../img/instar.png)no-repeat center;}
+.sns_01 > a.youtu{background: url(../../img/youtu.png)no-repeat center;}
 
 
 
