@@ -1,0 +1,195 @@
+@charset 'uft-8';
+#wrap{min-width:360px;}
+
+/* main : mobile*/
+header{position: relative;}
+header h1 a{display: block;width: 158px; height: 20px; background-color: red;
+background: url(../../img/logo.png) no-repeat center / auto 100%; 
+margin:0 auto; margin-top: 10px;}
+
+header .dark{width: 100%; height: 40px;
+background-color: #000;
+margin-top: 10px;}
+
+header .btn_menu{width: 20px; height: 20px;
+  background-color: red; display: block;
+position:absolute; top: 0; left:10px;
+background: url(../../img/free-icon-menu-566020.png)no-repeat center / 20px auto;}
+header .btn_search{width: 20px; height: 20px;
+  background-color: red; display: block;
+position: absolute; top: 0; right: 10px;
+background: url(../../img/search.png)no-repeat center /20px auto;}
+
+
+nav{display:none;}
+nav h2{display: none;}
+nav ul{width: 20%; height: 200px;background-color: #000;
+padding: 20px;}
+nav ul li a{color: #fff;margin-bottom: 5px; display: block;
+font-weight: bold;}
+.btn_menu:hover + nav{display: block;}
+nav ul li:hover a{color: #eb4a50;}
+
+
+/*-------------------------container--------------------------*/
+#visual{height: 270px; margin-top: 10px;
+background: url(../../img/mobile_top.png)no-repeat center / cover;}
+h3{text-align: center; margin: 30px;}
+.v_img{text-align: center;}
+.v_img .v_img1{height: 240px; margin-bottom: 150px;
+background: url(../../img/캐비네드쁘아쏭.jpg)no-repeat center / auto 240px;}
+.v_img .v_img1 h4{padding-top: 250px;font-size: 1.3rem;margin-bottom: 5px;}
+.v_img .date{margin-bottom: 10px;}
+.v_img .v_img1 p{margin-bottom: 5px;}
+
+/* .v_img2 */
+.v_img .v_img2{ height: 240px; margin-bottom: 200px;
+  background: url(../../img/크리스티앙\ 볼탕스키.jpg)no-repeat center / 360px auto}
+  .v_img .v_img2 h4{padding-top: 250px;font-size: 1.3rem;margin-bottom: 5px;}
+  .v_img .date{margin-bottom: 10px;}
+  .v_img .v_img2 p{margin-bottom: 5px;}
+
+.v_img .v_img3{ height: 240px; margin-bottom: 200px;
+    background: url(../../img/피아크1.jpg)no-repeat center / auto 240px;}
+    .v_img .v_img3 h4{padding-top: 250px;font-size: 1.3rem;margin-bottom: 5px;}
+    .v_img .date{margin-bottom: 10px;}
+    .v_img .v_img3 p{margin-bottom: 5px;}
+
+.v_img .v_img4{height: 240px; margin-bottom: 200px;
+    background: url(../../img/바다미술제.jpg)no-repeat center / auto 240px;}
+    .v_img .v_img4 h4{padding-top: 250px;font-size: 1.3rem;margin-bottom: 5px;}
+    .v_img .date{margin-bottom: 10px;}
+    .v_img .v_img4 p{margin-bottom: 5px;}
+
+.v_img .v_img5{height: 240px; margin-bottom: 200px;
+     background: url(../../img/OOTD전시회.jpg)no-repeat center / auto 240px;}
+    .v_img .v_img5 h4{padding-top: 250px;font-size: 1.3rem;margin-bottom: 5px;}
+    .v_img .date{margin-bottom: 10px;}
+    .v_img .v_img5 p{margin-bottom: 5px;}    
+  
+.v_img .v_img6{height: 240px; margin-bottom: 200px;
+    background: url(../../img/뮤지엄오브일루전.png)no-repeat center / auto 240px;}
+    .v_img .v_img6 h4{padding-top: 250px;font-size: 1.3rem;margin-bottom: 5px;}
+    .v_img .date{margin-bottom: 10px;}
+    .v_img .v_img6 p{margin-bottom: 5px;}
+
+/* v_txt */
+.v_txt{position: relative;}
+.v_txt h3{font-size: 1.4rem;} 
+.v_txt .plus{display: block; width: 32px; height: 32px;
+position: absolute; top: 2px; right: 37px;
+background: url(../../img/plus.png)no-repeat center;}
+.box > a{display:inline-block; width: 60px; height: 50px; border: 1px solid #000;
+border-radius: 20px; text-align: center; line-height: 50px;
+font-weight: bold;margin-left: 5px;}
+.box > a:hover{color: #eb4a50;}
+
+.box ul li img{padding: 15px 4px 10px;}
+
+.Festival_in{display: block;}
+.Festival h5{font-size: 1.4rem; text-align: center;margin-top: 30px; 
+display: none;}
+
+.busant{height: 104px;
+background: url(../../img/m_bottom.png)no-repeat center / cover;margin-top: 10px;
+cursor: pointer;}
+
+
+
+/* footer */
+
+.notice{height: 100%; border-top: 1px solid #e3e3e3;padding: 30px; margin-top: 20px;}
+.notice img{width: 158px; height: 20px;}
+.notice ul li{float: left;margin-left:20px;margin-bottom: 20px;}
+.notice_in{margin-left: 20px;}
+.notice ul li:hover a{text-decoration: underline;}
+
+
+  @media (min-width:1024px){
+    
+    nav{display: block;position: relative;}
+
+    header .btn_menu{display: none;}
+    header .btn_search{display: none;}
+
+    #visual{height: 350px; margin-top: 10px;
+      background: url(../../img/tablet_top.png)no-repeat center / cover;}
+   nav ul{width:100%;height:10px;}    
+   nav ul li{float: left; margin-left: 110px;
+  line-height: 10px;}
+  nav ul li:hover a{color: #eb4a50;}
+   nav ul li .login{position: absolute;top: -30px;right:250px;
+  color: #000;}
+  nav ul li .MYPAGE{position: absolute;top: -30px;right:165px;
+      color: #000;}
+    nav ul li .english{position: absolute;top: -30px;right:80px;
+        color: #000;}
+.v_txt .plus{display: block; width: 32px; height: 32px;
+     position: absolute; top: 2px; right: 37px;}
+
+   h3{font-size: 1.4rem;}
+  .v_img .inner{width: 871px;height: 100%;margin: 0 auto;
+  padding-left: 60px;}
+  .v_img ul li{width: calc((100% - 20px) / 2); float: left;
+  margin-left: 10px;}
+
+  .box ul li{width: calc((100% - 40px) / 2);
+  float: left; margin-bottom:30px;}
+ 
+.v_txt .inner{height: 100%;margin: 0 auto;}
+.box > a{position: relative; top: 0 ; left:24%;
+width: 89px;}
+.box ul li img{padding: 33px 86px 3px;}
+.busant{height: 150px;
+background: url(../../img/T_B2_1.png)no-repeat center / cover;margin-top:500px;
+cursor: pointer;}
+
+
+
+
+
+  
+  
+  }
+  
+
+
+  @media (min-width:1280px){
+
+#visual{height: 350px; margin-top: 10px;
+      background: url(../../img/web_top.png)no-repeat center / cover;}
+nav ul li{ margin-left:160px;}
+.v_img .inner{width:1217px;height: 100%;margin: 0 auto;
+  padding-left: 60px;}
+.v_img ul li{width: calc((100% - 60px) / 3); float: left;
+  margin-left: 10px; margin: 0 auto;}
+  .busant{height: 200px;
+    background: url(../../img/w_b.png)no-repeat center / cover;margin-top:500px;
+    cursor: pointer;}
+    .box ul li{width: calc((100% - 60px) / 3); height: 250px;
+      float: left; margin-bottom: 20px;}
+.box > a{width: 200px; left: 84px;}
+  .v_i .inner{width: 1217px; height: 250px;}
+
+  .box ul li img{padding:20px;} 
+.v_txt .plus{
+   right: 87px;}
+
+  }
+  .Festival{margin-top: 400px;}
+  .Festival_in h5{display: block;width:1280px; height: 150px;
+    background: url(../../img/w_banner.png) no-repeat center / 1280px auto;}
+
+
+
+   
+    .sns_01 > a{display: block; width: 59px; height: 59px;
+    background-color: aliceblue;float: left;margin-left: 10px;
+  position: relative; top:20px; right:-60%;}
+  .sns_01 > a.kaka{background: url(../../img/kaka1.png)no-repeat center;}
+  .sns_01 > a.fb{background: url(../../img/fb.png)no-repeat center;}
+  .sns_01 > a.tw{background: url(../../img/tw.png)no-repeat center;}
+  .sns_01 > a.instar{background: url(../../img/instar.png)no-repeat center;}
+  .sns_01 > a.youtu{background: url(../../img/youtu.png)no-repeat center;}
+  .notice_in{padding: 20px;}
+
