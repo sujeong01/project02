@@ -183,7 +183,7 @@ nav ul li{ margin-left:160px;}
 .v_txt .plus{
    right: 87px;}
 
-  }
+  
   .Festival{margin-top: 400px;}
   .Festival_in h5{display: block;width:1280px; height: 150px;
     background: url(../../img/w_banner.png) no-repeat center / 1280px auto;}
@@ -193,11 +193,21 @@ nav ul li{ margin-left:160px;}
    
     .sns_01 > a{display: block; width: 59px; height: 59px;
     background-color: aliceblue;float: left;margin-left: 5px;
-  position: relative; top:20px;}
+  position: relative; top:20px; display: none;}
   .sns_01 > a.kaka{background: url(../../img/kaka1.png)no-repeat center;}
   .sns_01 > a.fb{background: url(../../img/fb.png)no-repeat center;}
   .sns_01 > a.tw{background: url(../../img/tw.png)no-repeat center;}
   .sns_01 > a.instar{background: url(../../img/instar.png)no-repeat center;}
   .sns_01 > a.youtu{background: url(../../img/youtu.png)no-repeat center;}
 
+/* footer */
 
+.notice{height: 100%; border-top: 1px solid #e3e3e3;padding-top: 10px; margin-top: 20px;
+display: none;}
+.notice img{width: 158px; height: 20px;display: none;}
+.notice ul li{float: left;margin-left:20px;margin-bottom: 20px;display: none;}
+.notice_in{margin-left: 20px;display: none;}
+
+
+
+}
